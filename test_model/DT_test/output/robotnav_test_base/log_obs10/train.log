@@ -1,0 +1,32 @@
+No installion about spencer_tracking_msgs
+TASK NAME robotnav_test_base-127.0.0.1
+You can input following in your Terminal to open the tensorboard briefly:
+tensorboard --logdir=/home/drl/zxy_train/decision-transformer/exp_gen/drlnav_frame/sh/../../drlnav_frame/output/robotnav_test_base/tfboard/trainrobotnav_test_base-127.0.0.11675561286
+get training data  24.00929856300354
+get training data  20.454837560653687
+get training data  18.87595772743225
+get training data  18.8905987739563
+get training data  18.866345405578613
+get training data  18.651381254196167
+get training data  19.01743984222412
+get training data  18.979238986968994
+get training data  19.010445594787598
+get training data  19.051887035369873
+get training data  18.797940969467163
+get training data  19.44209933280945
+get training data  19.63749361038208
+get training data  20.92595934867859
+get training data  21.653706312179565
+get training data  21.63007640838623
+get training data  21.41283106803894
+get training data  21.551624536514282
+get training data  20.229953050613403
+get training data  18.856799125671387
+get training data  19.398165702819824
+get training data  23.271385669708252
+get training data  21.48652744293213
+get training data  21.105003833770752
+get training data  21.78990149497986
+get training data  21.263874530792236
+get training data  21.20774006843567
+get training data  21.422317028045654

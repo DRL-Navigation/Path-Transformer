@@ -1,0 +1,44 @@
+Obs-15:
+###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.97,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.03,
+                    avg_arrive_steps: 23.28556701030928,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.44874064240160555,
+                    avg_w: 0.40600361396904344,
+                    avg_v_acc: 0.043683677351384356,
+                    avg_w_acc: 0.272225291069423,
+                    avg_v_jerk: 0.19690880650186496,
+                    avg_w_jerk: 0.8665145704475978,
+                    avg_w_zero: 3.58,
+                    avg_w_variance: 0.17265565795083138,
+                    
+[TestEpisodeWrapper]: Exit Progress!
+
+Obs-25:
+###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.885,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.115,
+                    avg_arrive_steps: 30.277966101694915,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.2988881592356319,
+                    avg_w: 0.5657197527230939,
+                    avg_v_acc: 0.08463710214019173,
+                    avg_w_acc: 0.36110431303844537,
+                    avg_v_jerk: 0.3960484814736277,
+                    avg_w_jerk: 1.3650091085015306,
+                    avg_w_zero: 5.781,
+                    avg_w_variance: 0.2442404673733463,
+                    
+[TestEpisodeWrapper]: Exit Progress!
+

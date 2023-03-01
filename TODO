@@ -1,0 +1,70 @@
+目前的问题：过拟合，轨迹只有绕圈
+可能的原因：
+	PPO生成的经验探索性不足，直走的经验太多
+	Transformer不适合这个问题：
+		Encoder部分没有起到效果
+		PE干扰结果
+		
+解决办法：
+	更换模型，重新考虑轨迹的生成方法
+	使用SAC生成经验
+
+使用DMP表示轨迹，直接使用DT的模型
+	DMP的goal也需要DT的预测
+	
+	
+检查代码：path生产， GPT模型复现
+调整网络参数，尝试增加层数，降低输出维度
+
+考虑以下是否要在path里面添加方向信息
+
+现在避障能力也有了，但是比较弱：
+	添加Return-to-go估计网络
+	做微调
+	
+	Return-to-go动态调整
+	DWA-pursuit有待优化
+	
+	改sensor为laser, 重新构建经验生成的部分！！！
+	微调
+
+放弃所有动态场景，仅考虑静态场景
+
+
+
+修改path和states词嵌入的过程，将其嵌入为多个tokens
+经验生成场景多添加障碍物，换成PRM+DWA
+关于训练时mask部分还有一些问题需要思考
+
+修改后的GPT到达率有0.85，下一步更改经验生成场景和策略
+模型、轨迹跟随调参
+
+经验生成场景改为瞬间转向，添加障碍物！！！
+
+
+
+
+放弃动态场景：
+	states去掉ped_map
+	position_ids改为GPT默认
+	warmup参数更改
+	网络层数、多头调整
+	tokens维度调整
+	path改为0.2x3
+	
+	经验生成添加障碍物？
+
+	DWA调整
+
+调参思路：
+	dropout 下调
+	nhead 下调
+	nlayer 上调
+	更改训练时可见的tokens，去除path
+	warmup 下调
+
+
+对laser信息做拆分，形成多个tokens，降低tokens的维度。
+适当调整seq的长度
+
+数据集使用纯DWA？	增强reward对输出的区分度？

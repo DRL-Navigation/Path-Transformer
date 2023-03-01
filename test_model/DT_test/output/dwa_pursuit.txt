@@ -1,0 +1,89 @@
+  		Obs-10:
+                    ###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.979,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.021,
+                    avg_arrive_steps: 22.653728294177732,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.49186555682687716,
+                    avg_w: 0.5204544557970346,
+                    avg_v_acc: 0.039070605050240084,
+                    avg_w_acc: 0.8254337411825804,
+                    avg_v_jerk: 0.1744608705545746,
+                    avg_w_jerk: 3.8288458979787925,
+                    avg_w_zero: 7.911,
+                    avg_w_variance: 0.28994498804087215,
+
+
+		Obs-15:
+                    ###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.955,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.045,
+                    avg_arrive_steps: 24.706806282722514,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.4193155643305233,
+                    avg_w: 0.5785011516946271,
+                    avg_v_acc: 0.053908906417469045,
+                    avg_w_acc: 1.0328604612012913,
+                    avg_v_jerk: 0.24263325835380276,
+                    avg_w_jerk: 4.898449240549945,
+                    avg_w_zero: 11.075,
+                    avg_w_variance: 0.34831621188280165,
+
+
+		Obs-20:
+                    ###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.929,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.071,
+                    avg_arrive_steps: 28.431646932185146,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.36086605267423105,
+                    avg_w: 0.6376972585772356,
+                    avg_v_acc: 0.07165767778893534,
+                    avg_w_acc: 1.14585865724059,
+                    avg_v_jerk: 0.3247022229148421,
+                    avg_w_jerk: 5.465103844540154,
+                    avg_w_zero: 13.602,
+                    avg_w_variance: 0.39069066052561907,
+                    
+                    
+		Obs-25:
+                    ###############################
+                    [TestEpisodeWrapper]: Have run max episodes 1000, statistics number are in the following:
+
+                    arrive_rate: 0.872,
+                    static_coll_rate: 0.0,
+                    ped_coll_rate: 0.0,
+                    other_coll_rate: 0.0,
+                    stuck_rate: 0.128,
+                    avg_arrive_steps: 35.221330275229356,
+                    path_coll_rate: 0.0,
+                    avg_v: 0.2904738114746995,
+                    avg_w: 0.6896055234712345,
+                    avg_v_acc: 0.09375612345325877,
+                    avg_w_acc: 1.2404760419839407,
+                    avg_v_jerk: 0.4328261216105392,
+                    avg_w_jerk: 5.966292433532322,
+                    avg_w_zero: 18.557,
+                    avg_w_variance: 0.42959434686375364,
+
+
+                  
+  
+		  
+                   
+     
